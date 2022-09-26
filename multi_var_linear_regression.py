@@ -43,7 +43,7 @@ def gradient_descent(X: np.ndarray, y: np.ndarray, theta: np.ndarray, alpha, num
     return theta
 
 
-data = np.genfromtxt('C:\\Users\\swguo\\VSCode Projects\\Python Projects\\Machine Learning\\Regression\\Linear Regression\\ex1data2.txt', dtype = float, delimiter = ',')
+data = np.genfromtxt('C:\\Users\\swguo\\VSCode Projects\\Machine Learning\\Regression\\Linear Regression\\ex1data2.txt', dtype = float, delimiter = ',')
 
 X = np.array(data[:,[0,1]])
 y = np.atleast_2d(data[:,2]).T
